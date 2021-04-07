@@ -2,7 +2,7 @@
 layout: post
 title:  "Accessibility on Social Media"
 date:   2021-04-06 23:49:52 +0100
-categories: a11y
+categories: posts/a11y
 author: Marvin Borisch
 ---
 **Tech-knowledge needed:** basically none
