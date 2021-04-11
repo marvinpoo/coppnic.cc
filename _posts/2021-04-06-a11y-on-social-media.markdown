@@ -19,7 +19,7 @@ Humans with viewing disabilities such as blindness, reduced view, contrast probl
 
 #### ALT-tag / Description
 
-The "ALT"-tag, or how twitter calls it "Description", of a photo is a hidden text that can be read by machines. While a lot of shady and dsigusting professional content creators abuse the function to push theirself further up on Google, it actually has a useful function. Blind people use so called **screen readers**. That can be a installable service that reads the text for you or even a machine that translates the displayed text into braile[^2]. Without such ALT-tags, blind people won't be able to consume your photos. So here is how to describe the photos to blind people. <span class="notes">The following example is for tweets, but you can add a ALT-description to "Fleets", too.</span>
+The "ALT"-tag, or how twitter calls it "Description", of a photo is a hidden text that can be read by machines. While a lot of shady and disgusting professional content creators abuse the function to push theirself further up on Google, it actually has a useful function. Blind people use so called **screen readers**. That can be a installable service that reads the text for you or even a machine that translates the displayed text into braile[^2]. Without such ALT-tags, blind people won't be able to consume your photos. So here is how to describe the photos to blind people. <span class="notes">The following example is for tweets, but you can add a ALT-description to "Fleets", too.</span>
 
 ![Twitter Upload-mask with a "Add Description" link below the photo.][01-upload]<br>
 *[open image][01-upload]{:target="_blank"}*{:class="imglink"}<br>
