@@ -16,7 +16,7 @@ Currently I am moved by the seemingly ignorance and disrespect of privacy by the
 
 are a disgusting take on mass surveiling innocent citizen and only lower the bar to extend such laws and capacities / authorities.
 
-In the same moment they try to restrict companies (which is fine to me) to gain data of their users. Making this seem like "protecting privacy, except from us". This is making me scared to lose fundamental and general basic rights. Due to that I am currently focussed on digital privacy, dta policy and civic rights. Feel free to talk to me about that topic, send me information and links to articles right into my DMs on Twitter.
+In the same moment they try to restrict companies (which is fine to me) to gain data of their users. Making this seem like "protecting privacy, except from us". This is making me scared to lose fundamental and general basic rights. Due to that I am currently focussed on digital privacy, data policy and civic rights. Feel free to talk to me about that topic, send me information and links to articles right into my DMs on Twitter.
 
 ## Now
 ### Lockdown madness
