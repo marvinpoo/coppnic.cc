@@ -11,7 +11,7 @@ But new selfs spark new ideas, and so I have started to archive random finds of 
 
 ### Thematic Playlists
 | Topic | Description | Link |
-| --- | --- | --- |
+| --- | :---: | ---: |
 | **CYB3RW0RK.dll** | A playlist with cyberpunkish sounds to focus while doing digital work. | [Youtube Music](https://music.youtube.com/playlist?list=PLdkYrK8vCTsEB1yYPdIDvj7PA0KogdZz-){:target="_blank"} |
 
 ### Monthly Music Archive
