@@ -24,7 +24,7 @@ Ever since then, I've tried to avoid genre while choosing music to listen to. Th
 
 * Declan McKenna - Be an Astronaut (Live Video) // [YouTube Link](https://www.youtube.com/watch?v=9kowRzhrAZc){:target="_blank"}
 * Sasha Sloan - at least i look cool // [YouTube Link](https://www.youtube.com/watch?v=4pns72_4E2g){:target="_blank"}
-* Fu! - Rocky 3 // [YouTube Link](https://www.youtube.com/watch?v=T024VLFJGew){:target="_blank"}
+* Ben Salomo - Erfolgsstory // [YouTube Link](https://www.youtube.com/watch?v=7fuC0Bk4AJM){:target="_blank"}
 * Isaac Waddington - Nothing's Changed // [YouTube Link](https://www.youtube.com/watch?v=b9bgymKDExM){:target="_blank"}
 * Easy Life - Sunday // [YouTube Link](https://www.youtube.com/watch?v=KFiY1xhaN9Q){:target="_blank"}
 * Goddamn Electric Bill - Lost In The Zoo // [YouTube Link](https://www.youtube.com/watch?v=9zrMMAzIzcc){:target="_blank"}
