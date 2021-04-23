@@ -9,6 +9,11 @@ Since my early teenager years I have been making playlists of music I like. It a
 
 But new selfs spark new ideas, and so I have started to archive random finds of music into monthly playlists. These playlists are the product of my fully private weekly playlists. All songs I hear and (re-)discover every week are being "curated" into monthly playlists that I share on here. So please feel free to enjoy them. Every now and then I will still release other irregular playlists such as my "Trüffelteller" and "Printemps". I will not lists playlists made before 2021 on here for the sake of lazyness (as I've told you in my WTF? FYI! page).
 
+### Thematic Playlists
+Topic | Description | Link
+--- | --- | ---
+**CYB3RW0RK.dll** | A playlist with cyberpunkish sounds to focus while doing digital work. | [Youtube Music](https://music.youtube.com/playlist?list=PLdkYrK8vCTsEB1yYPdIDvj7PA0KogdZz-){:target="_blank"}
+
 ### Monthly Music Archive
 All playlists are hosten on Youtube Music until I find a better spot to host them. Visit them on your own privacy will.
 
