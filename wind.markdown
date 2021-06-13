@@ -19,9 +19,9 @@ are a disgusting take on mass surveiling innocent citizen and only lower the bar
 In the same moment they try to restrict companies (which is fine to me) to gain data of their users. Making this seem like "protecting privacy, except from us". This is making me scared to lose fundamental and general basic rights. Due to that I am currently focussed on digital privacy, data policy and civic rights. Feel free to talk to me about that topic, send me information and links to articles right into my DMs on Twitter.
 
 ## Now
-### Lockdown madness
+### Lockdown ~~madness~~ calmdown
 
-As probably almost everyone else on this planet, I am still in a medium restricted lockdown. Since 12. Jan. 2021 the Berlin Senat has passed the legal framework to restrict the movement of it's residents. To me that isn't really effecting at all, though that my [travel plans](#traveling) for this year might be in danger. The overall situation had me pretty bummed, but I've taken the opportunity to do more stuff for myself, such as creating my digital Zen Garden.
+Restrictions are being reduced as more and more people are getting vaccined. And yes, I have had my first vaccination, too. The second one is coming up in a few days. I am looking forward for our lifes to get back to where it all was. Tho I am pretty sure we will take some of the things we have learned with us and will evolve as society.
 
 ### Planning
 
@@ -45,33 +45,30 @@ At this moment I am writing some articles to load some content into my Zen Garde
 
 ### Listening
 
-As the year is starting and everything is calm around me, I am pretty much banished into the sweet sounds of cineastic post-rock. Here are some artists I am listening to atm (random order):
+The summer is starting, the mood is getting more active and relaxation is playing a big part for personal care. Therefore I am listening to a mix of activating and relaxing songs with positiv sounds.
 
-* Mogwai
-* Eluvium
-* Sigur Rós
-* Ólafur Arnalds
-* Jónsi
-* Múm
-* Rökkurró
+* Air
+* Bundspecht
+* Dope Lemon
+* LGoony
+* Icke & Er
+* slenderbodies
 
 For more music, feel free to check out my music page in the inspiration section.
 
 ### Reading
 
-I am still stuck in the "Foundation" Triology, by Isaac Asimov. Also reading a lot of articles about social and worklife shift due to the pandemic.
+I am STILL stuck in the "Foundation" Triology, by Isaac Asimov, but I have managed to read a few more chapters. Additionally I am reading Michael Tomasello's "A Natural History of Human Thinking". Currently not reading many articles outside of computer related non-fiction.
 
 ### Watching
 
-I've just finished **Borgen**, the 3rd season of **Star Trek: Discovery** (*yes, I've enjoyed it, unironically*), **The Queen's Gambit** and the 6th season of **Brooklyn 99**. Currently I am looking forward to find some new show to commit to.
+I've just finished the second season of **Love, Death + Robots**, **Sweet Tooth** and recently rewatched **The Midnight Gospel**.
 
 Here are some movies I've recently (re)watched and enjoyed:
-* The Hater (*drama, thriller*)
-* This Is The End (*comedy*)
-* The Girl in the Spider's Web (*nerdy action thriller*)
-* 1917 (*war drama*)
-* Beautiful Boy (*drug drama*)
+* Stolen (*Nicolas Cage ftw*)
+* The Drop (*great gangster drama*)
+* Ten Years (*awesome china critical view of Hongkong's future*)
 
 ### Traveling
 
-Due to the pandemic situation, my annual trip to my natural hideout in Brandenburg is probably going to be cancelled. In the recent years I have enjoyed this little refugium close to Berlin but far from the chaotic life in my hometown. Damn, I really hope I can visit there this year.
+I've just been to our hideout in Brandenburg with some friends and have had a few great adventures with them and also got some time to relax and reflect myself. My next trip out of Berlin will be in fall this year.
