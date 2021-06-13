@@ -22,12 +22,9 @@ Ever since then, I've tried to avoid genre while choosing music to listen to. Th
 ### An forever incomplete & changing selection
 <span class="notes">*All links on this list will open external websites such as YouTube, Soundcloud or Bandcamp. Check the link before opening if you are concerned about your privacy. Songs on this list are subject to change without any notice. I will revisit this list every now and then.*</span>
 
-* Declan McKenna - Be an Astronaut (Live Video) // [YouTube Link](https://www.youtube.com/watch?v=9kowRzhrAZc){:target="_blank"}
-* Sasha Sloan - at least i look cool // [YouTube Link](https://www.youtube.com/watch?v=4pns72_4E2g){:target="_blank"}
-* Ben Salomo - Erfolgsstory // [YouTube Link](https://www.youtube.com/watch?v=7fuC0Bk4AJM){:target="_blank"}
-* Isaac Waddington - Nothing's Changed // [YouTube Link](https://www.youtube.com/watch?v=b9bgymKDExM){:target="_blank"}
-* Easy Life - Sunday // [YouTube Link](https://www.youtube.com/watch?v=KFiY1xhaN9Q){:target="_blank"}
-* Goddamn Electric Bill - Lost In The Zoo // [YouTube Link](https://www.youtube.com/watch?v=9zrMMAzIzcc){:target="_blank"}
+* Dope Lemon - Salt & Pepper // [YouTube Link](https://www.youtube.com/watch?v=FOS8KKnFmx0){:target="_blank"}
+* Bundspecht - Rotweinmund // [YouTube Link](https://www.youtube.com/watch?v=jTLupKbEN14){:target="_blank"}
+* slenderbodies - anemone // [YouTube Link](https://www.youtube.com/watch?v=fXgczro95lk){:target="_blank"}
 
 
 
