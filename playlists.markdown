@@ -10,13 +10,14 @@ Since my early teenager years I have been making playlists of music I like. It a
 But new selfs spark new ideas, and so I have started to archive random finds of music into monthly playlists. These playlists are the product of my fully private weekly playlists. All songs I hear and (re-)discover every week are being "curated" into monthly playlists that I share on here. So please feel free to enjoy them. Every now and then I will still release other irregular playlists such as my "Trüffelteller" and "Printemps". I will not lists playlists made before 2021 on here for the sake of lazyness (as I've told you in my WTF? FYI! page).
 
 ### Monthly Music Archive
-All playlists are hosten on Youtube Music until I find a better spot to host them. Visit them on your own privacy will.
+All playlists are hosted on Youtube Music until I find a better spot to host them. Visit them on your own privacy will.
 
 #### Year 2021
 * [2021.01](https://music.youtube.com/playlist?list=PLdkYrK8vCTsGk3_9LAOotNnhL-j17UVtb&feature=share){:target="_blank"}
 * [2021.02](https://music.youtube.com/playlist?list=PLdkYrK8vCTsEFD-TeOaW1OGq7bzc3zoCS&feature=share){:target="_blank"}
 * [2021.03](https://music.youtube.com/playlist?list=PLdkYrK8vCTsG-VOyHM-r5Nf_u2wGDB7Zs&feature=share){:target="_blank"}
-* [2021.04 (Ongoing)](https://music.youtube.com/playlist?list=PLdkYrK8vCTsE5TwRHQnXdEST7QxvBlLg-&feature=share){:target="_blank"}
+* [2021.04](https://music.youtube.com/playlist?list=PLdkYrK8vCTsE5TwRHQnXdEST7QxvBlLg-&feature=share){:target="_blank"}
+* [2021.05 (Ongoing)](https://music.youtube.com/playlist?list=PLdkYrK8vCTsFgCLPTqrp8UW1cAteOVnKJ&feature=share){:target="_blank"}
 
 #### Year 2020
 * [2020.02](https://music.youtube.com/playlist?list=PLdkYrK8vCTsG9OGB43RyXWkhO1dxDTjyu&feature=share){:target="_blank"}
