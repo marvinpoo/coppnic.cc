@@ -18,7 +18,8 @@ All playlists are hosted on Youtube Music until I find a better spot to host the
 * [2021.03](https://music.youtube.com/playlist?list=PLdkYrK8vCTsG-VOyHM-r5Nf_u2wGDB7Zs&feature=share){:target="_blank"}
 * [2021.04](https://music.youtube.com/playlist?list=PLdkYrK8vCTsE5TwRHQnXdEST7QxvBlLg-&feature=share){:target="_blank"}
 * [2021.05](https://music.youtube.com/playlist?list=PLdkYrK8vCTsFgCLPTqrp8UW1cAteOVnKJ&feature=share){:target="_blank"}
-* [2021.06 (Ongoing)](https://music.youtube.com/playlist?list=PLdkYrK8vCTsGbh2L9D3tNcb1MxOH_NODp&feature=share){:target="_blank"}
+* [2021.06](https://music.youtube.com/playlist?list=PLdkYrK8vCTsGbh2L9D3tNcb1MxOH_NODp&feature=share){:target="_blank"}
+* [2021.07 (Ongoing)](https://music.youtube.com/playlist?list=PLdkYrK8vCTsHuGmWd4btsRlQeyEjIXkLe&feature=share){:target="_blank"}
 
 #### Year 2020
 * [2020.02](https://music.youtube.com/playlist?list=PLdkYrK8vCTsG9OGB43RyXWkhO1dxDTjyu&feature=share){:target="_blank"}
