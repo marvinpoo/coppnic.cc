@@ -22,7 +22,7 @@ Ever since then, I've tried to avoid genre while choosing music to listen to. Th
 ### An forever incomplete & changing selection
 <span class="notes">*All links on this list will open external websites such as YouTube, Soundcloud or Bandcamp. Check the link before opening if you are concerned about your privacy. Songs on this list are subject to change without any notice. I will revisit this list every now and then.*</span>
 
-* Jonas Mantey - Wie Alles Begann //[Soundcloud](https://soundcloud.com/jonas-mantey/wie-alles-begann){:target="_blank"}
+* Jonas Mantey - Wie Alles Begann // [Soundcloud](https://soundcloud.com/jonas-mantey/wie-alles-begann){:target="_blank"}
 * FiNCH x TAREK KIZ - Onkelz Poster // [YouTube](https://www.youtube.com/watch?v=v0Xh9M4s4_w){:target="_blank"}
 * Ben Salomo - Deduschka // [YouTube](https://www.youtube.com/watch?v=4wPsJuMhkMg){:target="_blank"}
 * Declan McKenna - My House // [YouTube](https://www.youtube.com/watch?v=nTVCSri_gHQ){:target="_blank"}
