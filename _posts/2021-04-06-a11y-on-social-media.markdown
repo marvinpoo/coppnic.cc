@@ -4,6 +4,7 @@ title:  "Accessibility on Social Media"
 date:   2021-04-06 23:49:52 +0100
 categories: posts/a11y
 author: Marvin Borisch
+description: Every five seconds a human on planet earth goes blind. Including people with limited or disabled abilities into your social media presence. Examples insides are universal, but made for Twitter/Mastodon.
 ---
 **Tech-knowledge needed:** basically none
 

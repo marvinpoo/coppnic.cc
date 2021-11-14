@@ -4,16 +4,58 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="{{ "/assets/main.css" | relative_url }}">
   {%- feed_meta -%}
-  <title>XXIV VII</title>  
+  <title>
+      {%if page.title %}
+          {{ page.title }} \\ XXIV VII
+      {% else %}
+          XXIV VII
+      {% endif %}
+  </title>  
   <meta name="author" content="Marvin Borisch">
   <meta name="publisher" content="Marvin Borisch">
+  <meta name="publisher" content="XXIV VII">
+  <meta name="publisher" content="marvinpoo">
+  <meta name="publisher" content="@marvinpoo">
   <meta name="copyright" content="Marvin Borisch">
-  <meta name="description" content="the personal Zen Garden of a 24/7 busy brain">
+  <meta name="description" content="{% if page.description %}{{ page.description | truncate: 160 }}{% else %}{{ site.description | truncate: 160  }}{% endif %}">
   <meta http-equiv="content-language" content="en">
   <meta name="robots" content="index, follow">
+
+  <link rel="schema.DC" href="http://purl.org/dc/elements/1.1/">
+  <meta name="DC.Title" content="{%if page.title %}{{ page.title }} \\ XXIV VII{% else %}XXIV VII{% endif %}">
   <meta name="DC.Creator" content="Marvin Borisch">
+  <meta name="DC.Subject" content="technology">
+  <meta name="DC.Subject" content="webdevelopment">
+  <meta name="DC.Subject" content="webdesign">
+  <meta name="DC.Subject" content="accessibility">
+  <meta name="DC.Subject" content="sustainability">
+  <meta name="DC.Subject" content="privacy">
+  <meta name="DC.Description" content="{% if page.description %}{{ page.description | truncate: 160 }}{% else %}{{ site.description | truncate: 160  }}{% endif %}">
   <meta name="DC.Publisher" content="Marvin Borisch">
-  <meta name="DC.Rights" content="Marvin Borisch">
-  <meta name="DC.Description" content="the personal Zen Garden of a 24/7 busy brain">
+  <meta name="DC.Publisher" content="XXIV VII">
+  <meta name="DC.Publisher" content="marvinpoo">
+  <meta name="DC.Publisher" content="@marvinpoo">
+  <meta name="DC.Contributor" content="Marvin Borisch">
+  <meta name="DC.Type" content="text">
   <meta name="DC.Language" content="en">
+  <meta name="DC.Language" content="en-EN">
+  <meta name="DC.Language" content="en-US">
+  <meta name="DC.Rights" content="CC BY-NC 4.0">
+  <meta name="DC.Rights" content="https://creativecommons.org/licenses/by-nc/4.0/">
+
+  <meta property="og:title" content="{%if page.title %}{{ page.title }} \\ XXIV VII{% else %}XXIV VII{% endif %}">
+  <meta property="og:site_name" content="XXIV VII">
+  <meta property="og:url" content="https://xxiv-vii.fyi/">
+  <meta property="og:description" content="{% if page.description %}{{ page.description | truncate: 160 }}{% else %}{{ site.description | truncate: 160  }}{% endif %}">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="/pictures/meta/main-og.jpg">
+  <meta property="og:image:alt" content="The personal Zen Garden of a 24/7 busy brain.">
+
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:site" content="@marvinpoo" />
+  <meta name="twitter:creator" content="@marvinpoo" />
+  <meta property="og:url" content="https://xxiv-vii.fyi/" />
+  <meta property="og:title" content="{%if page.title %}{{ page.title }} \\ XXIV VII{% else %}XXIV VII{% endif %}" />
+  <meta property="og:description" content="{% if page.description %}{{ page.description | truncate: 160 }}{% else %}{{ site.description | truncate: 160  }}{% endif %}" />
+  <meta property="og:image" content="/pictures/meta/main-tw.jpg" />
 </head>

@@ -4,6 +4,7 @@ title:  "Sustainable Design Thinking in Webdevelopment"
 date:   2021-06-13 17:17:17 +0100
 categories: posts/susty
 author: Marvin Borisch
+description: A basic exploration of sustainable design thinking in webdevelopment. Frugal innovation as a standard thinking to protect our planet. For programmers and designers.
 ---
 **Tech-knowledge needed:** basic
 

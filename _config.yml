@@ -20,10 +20,9 @@
 
 title: XXIV VII - Zen Garden
 email: marvinpoo@gmail.com
-description: >- # this means to ignore newlines until "baseurl:"
-  <the personal Zen Garden of a 24/7 busy brain>
+description: < the personal Zen Garden of a 24/7 busy brain >
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://xxiv-vii.fyi/" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: marvinpoo
 github_username:  marvinpoo
 markdown: kramdown
