@@ -1,4 +1,4 @@
-# xxiv-vii
+# coppnic
 my digital Zen Garden.
 
 More information coming soon.
