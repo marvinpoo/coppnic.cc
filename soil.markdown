@@ -1,13 +1,13 @@
 ---
 layout: page
-title: S0!l
-permalink: /zen/soil/
+title: Soil
+permalink: /garden/soil/
 ---
 
 *The s0!l, or for non-nerds "Soil" is me. The Human, Marvin. It can be described as the soil of the Zen Garden. My basic self, my identity, my fundamental principles. Things that will basically never change or would take a long time and a lot of (self) evaluation to be changed. It is the DNA of my takes, of my ideas.*
 
 Hello everyone,
-my name is Marvin, a Berlin Köpenick[^1] based tech & sci-fi nerd. I am the technical lead of a berlin based agency for digital transformation aiming on german b2b SME. That's as much as I'd like to talk about my work as this Zen Garden is supposed to be my personal digital hideaway.
+my name is Marv, a Berlin Köpenick[^1] based tech & sci-fi nerd. I used to be the technical lead of a berlin based agency for digital transformation aiming on german b2b SME. Now I am freelancing again. That's as much as I'd like to talk about my work as this Zen Garden is supposed to be my personal digital hideaway.
 
 I was born in Berlin Köpenick in 1992 and have ever since been intrigued by technical things and logical structures. In my school time I was focused on natural science, astronomy and computer science. Even though my focus on science, I've written my MSA[^2] thesis about "Treptow-Köpenick rocks - a political confession?", a music and politics mixed take on the music scene in our borough and their political views and engagements.
 

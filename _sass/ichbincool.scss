@@ -13,6 +13,7 @@ $spacing-unit:     30px !default;
 $text-color:       #FFF2DE !default;
 $background-color: #333134 !default;
 $brand-color:      #FF5449 !default;
+$brand-secondary:  #C6F140 !default;
 
 $grey-color:       #828282 !default;
 $grey-color-light: lighten($grey-color, 40%) !default;
@@ -29,7 +30,7 @@ $on-laptop:        800px !default;
 // Use media queries like this:
 // @include media-query($on-palm) {
 //   .wrapper {
-//     padding-right: $spacing-unit / 2;
+//     padding-right: $spacing-unit / 2; 
 //     padding-left: $spacing-unit / 2;
 //   }
 // }

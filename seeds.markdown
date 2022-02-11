@@ -1,7 +1,7 @@
 ---
 layout: page
-title: s33ds
-permalink: /zen/seeds/
+title: Seeds
+permalink: /garden/seeds/
 ---
 
 *To finish it off, s33ds are ideas that I have and that I want to try. Over time these seeds will prosper to beautiful plants.*

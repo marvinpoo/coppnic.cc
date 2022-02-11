@@ -18,14 +18,19 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: XXIV VII - Zen Garden
-email: marvinpoo@gmail.com
+title: Coppnic
+email: coppnic@e.email
 description: < the personal Zen Garden of a 24/7 busy brain >
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://xxiv-vii.fyi/" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: marvinpoo
+url: "https://coppnic.cc" # the base hostname & protocol for your site, e.g. http://example.com
+destination: "../html/"
+twitter_username: coppnic
 github_username:  marvinpoo
 markdown: kramdown
+# s3img: https://ewr1.vultrobjects.com:443/myurbit/sibnup-litdev/blog/img/
+# s3js: https://ewr1.vultrobjects.com:443/myurbit/sibnup-litdev/blog/js/
+# s3css: https://ewr1.vultrobjects.com:443/myurbit/sibnup-litdev/blog/css/
+s3img: /pictures/
 
 # Build settings
 # theme: ichbincool

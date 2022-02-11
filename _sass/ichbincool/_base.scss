@@ -124,11 +124,11 @@ article.post {
  * Links
  */
 a {
-  color: $brand-color;
+  color: $brand-secondary;
   text-decoration: underline;
 
   &:hover {
-    color: lighten($brand-color, 20%);
+    color: lighten($brand-secondary, 20%);
     text-decoration: underline;
   }
 
@@ -263,4 +263,9 @@ del {
   text-decoration-color: $brand-color;
   text-decoration-thickness: 3px;
   text-emphasis-style: wavy;
+}
+
+.kehrbesen {
+  unicode-bidi:bidi-override;
+  direction:rtl;
 }

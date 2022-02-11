@@ -1,7 +1,7 @@
 ---
 layout: page
-title: w!nd (Now page)
-permalink: /zen/wind/
+title: Wind
+permalink: /garden/wind/
 ---
 
 *The w!nd is the direction I am currently going. I was inspired about this by the [Now Movement](https://nownownow.com/about){:target="_blank"}, a sententia to express what you are basically doing right now. As I am a pretty lazy guy when it comes to my own projects, I've modified the idea to fit into my Zen Garden. The w!nd is what currently moves me and influences my decisions. As you can imagine, winds can change their directions, split apart, come together and be whatever they want to be right now. To me, w!nd is "temporarily permanent", my most used oxymoron.*
@@ -25,7 +25,7 @@ Restrictions are being reduced as more and more people are getting vaccined. And
 
 ### Planning
 
-Currently I have no plans. Thought I am thinking about participating in the local and federal elections (2021/Q3) as supporter. For current ideas and plans, check out my [s33ds](/zen/seeds/).
+Currently I have no plans. Thought I am thinking about participating in the local and federal elections (2021/Q3) as supporter. For current ideas and plans, check out my [Seeds](/garden/seeds/).
 
 ### Learning & collecting insight
 

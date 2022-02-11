@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Inspiration: Music"
-permalink: /if/music/
+permalink: /inspiration/music/
 ---
 *The biggest inspiration for myself is music. This might sound very cliché to say, but probably everyone that has worked with me would agree on that in fact. So here is what and how I get inspired by music with a few examples.*
 

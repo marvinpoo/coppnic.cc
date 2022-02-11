@@ -47,14 +47,6 @@
         grid-row-end: 3;
     }
 
-    a {
-        color: $text-color;
-
-        &:hover {
-            color: lighten($brand-color, 20%)
-        }
-    }
-
     b {
         color: $brand-color;
         font-size: $base-font-size + 5;
