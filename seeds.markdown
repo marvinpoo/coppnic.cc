@@ -6,13 +6,6 @@ permalink: /garden/seeds/
 
 *To finish it off, s33ds are ideas that I have and that I want to try. Over time these seeds will prosper to beautiful plants.*
 
-### Zen Garden
-My digital Zen Garden is my first seed. Currently it is also the most grown seed, quite like a tiny little sapling. Based on the infamous "release early, release often" modell, I am adding, editing and deleting features and ideas of this project.
-
-**Phase:** Launched. Growing.
-
-**Situation:** If you can read this, this seed has been planted and is about to grow into a beautiful plant. I am currently collecting feedback.
-
 ### Leaving Big-Corp Tech
 As surveillance is rising and the abuse of humans private data, I've decided to slowly leave the big-corp tech world. At this moment I am using my Raspi 4+[^1] to set up my personal structure for tools such as IDE's, password managers, calendars and more. The next step will be leaving plattforms such as Facebook, Discord and co.
 
@@ -21,7 +14,9 @@ As surveillance is rising and the abuse of humans private data, I've decided to 
 **Situation:** 
 ***Q4/2021:*** Currently I have moved all my communication to open source and encrypted messengers. I am currently shifting my Google data e/OS/[^2] and it's ecosystem. This goes hand in hand with switching from my Huawei phone to a Fairphone 3+[^3].
 
-***Q1/2022:** I've set up my Urbit (~sibnup-litdev) and am using it frequently. Additionally to leaving WhatsApp in mid 2021, I've finally left Facebook & Instagram behind me. My E-Mails are mostly hosted by e.email instead of gmail. I've reduced my twitter usage and am still searching for a good fediverse instance.
+***Q1/2022:*** I've set up my Urbit (~sibnup-litdev) and am using it frequently. Additionally to leaving WhatsApp in mid 2021, I've finally left Facebook & Instagram behind me. My E-Mails are mostly hosted by e.email instead of gmail. I've reduced my twitter usage and am still searching for a good fediverse instance.
+
+***Q2/2022:*** I moved to the fediverse instance of "A Quiet Place". 
 
 ### Color Tiles
 Currently I am workinging on [Color Tiles](/garden/plants/color-tiles/)<br>
