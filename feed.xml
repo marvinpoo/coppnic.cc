@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://coppnic.cc/feed.xml" rel="self" type="application/atom+xml" /><link href="https://coppnic.cc/" rel="alternate" type="text/html" /><updated>2022-10-21T11:18:54+02:00</updated><id>https://coppnic.cc/feed.xml</id><title type="html">Coppnic</title><subtitle>&lt; the personal Zen Garden of a 24/7 busy brain &gt;</subtitle><entry><title type="html">Sustainable Design Thinking in Webdevelopment</title><link href="https://coppnic.cc/posts/susty/2021/06/13/sustainable-design-thinking.html" rel="alternate" type="text/html" title="Sustainable Design Thinking in Webdevelopment" /><published>2021-06-13T18:17:17+02:00</published><updated>2021-06-13T18:17:17+02:00</updated><id>https://coppnic.cc/posts/susty/2021/06/13/sustainable-design-thinking</id><content type="html" xml:base="https://coppnic.cc/posts/susty/2021/06/13/sustainable-design-thinking.html">&lt;p&gt;&lt;strong&gt;Tech-knowledge needed:&lt;/strong&gt; basic&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;In 2020 the carbon dioxide emissions of the world has raised to shocking 39.9 billion tons by year. Digital technologies account for 4% of the greenhouse gas emissions. That number is scaringly high, but we, the developers of this digital world, can do something against it by changing our design mindset. Here are a few ideas on how to approach this topic.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Be warned, this article is highly theoretical and was written to inspire you, not to lecture you on how to design. Tho, this article is part of my 2021 focus interest &lt;strong&gt;Maximum sustainability design-extremism&lt;/strong&gt;. Here are some takes on how to design with sustainibility extremism in your mind. As I am a tech-lead with a webdesign and ‑developing background, let me show you a few web examples.&lt;/em&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;design-useful-not-stylish&quot;&gt;Design useful not stylish&lt;/h3&gt;
+&lt;p&gt;Don’t get me wrong, I do not want you to design ugly websites, systems or apps, but one of the most impactful ways to approach a cleaner internet is to design for the use and not for the style. The thumbrule I’ve soaked into my design process is &lt;strong&gt;“does the user gain information from this effect?”&lt;/strong&gt;. You’d be surprised how often this question can be easily answered with &lt;strong&gt;no&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;h4 id=&quot;javascript-effects&quot;&gt;Javascript effects&lt;/h4&gt;
+&lt;p&gt;The biggest but also easiest to avoid impact is to reduce the extreme use of javascript effects. Reducing javascript effects does not only reduce the carbon footprint of your project, but it also reduces the chances of you, the designer, distracting your users from actually getting valuable information.&lt;/p&gt;
+
+&lt;p&gt;Swaying waves, moving textblocks and flashing images might look “cool” and “modern”, but they do not only distract the user but also come with multiple costs.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;The Code and it’s impact on you and the user&lt;/strong&gt;&lt;br /&gt;
+The code itself has a “weight” which we express as bytes. Every byte costs us CO2. It starts with the time we spend to write such effects, which results in longer computing and sitting-infront-of-the-computer time. That costs electricity for the computer, the monitor and also for ourselves. The CPUs of our computer and even of our body need to be “feed” energy. We can apply Einstein’s Mass–energy equivalence here. Everytime we hit a key on our keyboard, we burn energy. We think about what we code and our fingers execute that produced idea. The code itself is written on a computer. Each key stroke costs energy. Every file uses storage which is written, rewritten and read within miliseconds, writing and reading our hard-drives costs energy. And we aren’t even done yet. Saving these javascript files towards our host, you get it, costs energy. Running the host costs energy. When a user visits the website for the first time, transfering the data will cost energy. Executing the effect that has been written into the javascript uses the users CPU&lt;sup id=&quot;fnref:1&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;, RAM and sometimes even the GPU and therefore: costs energy.&lt;/p&gt;
+
+&lt;p&gt;Wavy backgrounds animated in javascript (yes, and CSS, too) are processed every single time the state changes. So if you have a loop of a effect instead of an effect that only fires one time, you are forcing the user to waste energy as long as the user visits the website. You can check that in your DevTools in the &lt;strong&gt;Performance Monitor&lt;/strong&gt; tool. I’ve used the (beautiful) website of Asana for example. They fire floating labels over the hero image via javascript, that float and float and float without ever stopping. Each frame of the effect is processing information and therefore using the users CPU which results in usage of energy.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/pictures/sustainable-design-thinking/01-cpu-and-recalc.jpg&quot; alt=&quot;The Devtools &amp;quot;Performance Monitor&amp;quot; on Asana's landingpage&quot; title=&quot;Devtools Performance Monitor&quot; /&gt;&lt;br /&gt;
+&lt;em class=&quot;imglink&quot;&gt;&lt;a href=&quot;/pictures/sustainable-design-thinking/01-cpu-and-recalc.jpg&quot; title=&quot;Devtools Performance Monitor&quot; target=&quot;_blank&quot;&gt;open image&lt;/a&gt;&lt;/em&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;You might think I am counting peanuts here, and I might am, but there are milions of websites with a unimaginable amount of javascript effects that have no use at all. If you combine every miliseconds that are processed by useless effects, you will end up having a huge carbon footprint. If every designer would ask themself “does the user gain information from this effect?” more often and act accordingly, we could reduce carbon footprint globally. And this is just one measurement you can implement into your design thinking process. After two or three projects, you will act more responsible by default.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Awesome sideffect&lt;/strong&gt;&lt;br /&gt;
+Using less useless javascript effects would not only result in lesser energy usage but also loads the website faster, it saves miliseconds of loading time and therefore also saves energy. You have a win-win-win situation here: You give the user a faster web experience and contribute to saving the enviroment by using less energy for the transfer of the files and save time coding that effect which results in faster delivery for your client and less needed energy of your body. And if you care about money, then it’s also a additional sideffect: you spend less money.&lt;/p&gt;
+
+&lt;h3 id=&quot;pinpoint-redundancy-eradicate-repeats&quot;&gt;Pinpoint redundancy, eradicate repeats&lt;/h3&gt;
+&lt;p&gt;One of the things most beginners and even some professionals do wrong is repeating stuff. I myself am a victim of lazyness and therefore sometimes include redundancy in projects. The biggest problem is the idea of “Ahh, no worries, I can fix that later!”. Based on my 10+ years of professional experience I can tell you that in most cases you will &lt;strong&gt;not&lt;/strong&gt; have the time to fix things later on, as long as a client doesn’t see the need of the fix. It is about you to include that into your design thinking process. Here are two examples on my biggest mistakes.&lt;/p&gt;
+
+&lt;h4 id=&quot;reusable-code-in-wordpress&quot;&gt;Reusable code in Wordpress&lt;/h4&gt;
+&lt;p&gt;&lt;em&gt;As over 50% of my projects are based on wordpress websites for SME, I am using this example. This can be replaced with most traditional CMS, headless CMS and modern package-based development styles.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Most websites have code snippets that are most likely to be re-used in the code design. This starts with wordpress’ own head and footer calls but doesn’t end there. Template parts&lt;sup id=&quot;fnref:2&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:2&quot; class=&quot;footnote&quot;&gt;2&lt;/a&gt;&lt;/sup&gt; are a good example for re-usable code but are, based on my insight, mostly only used for loops. These template parts can also be used for repeatable code such as api-based forms, promotional sections and basically everything you use more than just once.&lt;/p&gt;
+
+&lt;p&gt;The biggest complaint I’ve heard from beginners or front-end developers is, that reusable code isn’t very flexible. While this might was true a few years ago, todays technology can help you with that. By designing your front-end with CSS Grid or Flexbox-Grids, you can re-arrange the content of the re-used code’s DOM as simple as 1234.&lt;/p&gt;
+
+&lt;h4 id=&quot;reusable-css-or-scssless&quot;&gt;Reusable CSS or SCSS/LESS&lt;/h4&gt;
+&lt;p&gt;The biggest problem in front-end design &lt;strong&gt;was&lt;/strong&gt; re-using styling, as example, you had to re-define shadows for cards every single time you wanted to declare them. With the introduction of LESS and SCSS, reusable styling was introduced. While most beginners only use the variables to set colors, fonts or sizes, the actual gamechanger are so called &lt;em&gt;Mixins&lt;/em&gt;&lt;sup id=&quot;fnref:3&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:3&quot; class=&quot;footnote&quot;&gt;3&lt;/a&gt;&lt;/sup&gt;. You can set multiple lines in mixins and reuse these lines in the styling process. This may not reduce the lines of css for the visitor of the project, but it reduces the lines you have to write and therefore reduces your usage of energy as mentioned in &lt;strong&gt;Javascript effects&lt;/strong&gt; above.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Example:&lt;/strong&gt;&lt;br /&gt;
+&lt;img src=&quot;/pictures/sustainable-design-thinking/02-shadow.jpg&quot; alt=&quot;The declaration of a Mixin in SCSS&quot; title=&quot;Shadow Mixin&quot; /&gt;&lt;br /&gt;
+&lt;em class=&quot;imglink&quot;&gt;&lt;a href=&quot;/pictures/sustainable-design-thinking/02-shadow.jpg&quot; title=&quot;Shadow Mixin&quot; target=&quot;_blank&quot;&gt;open image&lt;/a&gt;&lt;/em&gt;&lt;br /&gt;
+&lt;img src=&quot;/pictures/sustainable-design-thinking/03-card.jpg&quot; alt=&quot;Usage of the declared Mixin&quot; title=&quot;Usage of Mixin&quot; /&gt;&lt;br /&gt;
+&lt;em class=&quot;imglink&quot;&gt;&lt;a href=&quot;/pictures/sustainable-design-thinking/03-card.jpg&quot; title=&quot;Usage of Mixin&quot; target=&quot;_blank&quot;&gt;open image&lt;/a&gt;&lt;/em&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;You can check out the example &lt;a href=&quot;https://codepen.io/marvinpoo/pen/rNyQjeX&quot; target=&quot;_blank&quot;&gt;on codepen&lt;/a&gt; . Mixins can technically be used for everything even though I would suggest using it for multi-line styling. It doesn’t have to be complex at all, but you can even create awesome mobile first responsive/fluid declarations as you can see at my (very old) &lt;a href=&quot;https://github.com/marvinpoo/_marvli.scss&quot; target=&quot;_blank&quot;&gt;_marvli&lt;/a&gt; preset.&lt;/p&gt;
+
+&lt;h3 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h3&gt;
+&lt;p&gt;These are just some examples that would reduce your carbon footprint of your projects. It is about you to ask yourself: is it needed? Is it redundant? If we all absorb critical thinking about the usage of our code, we could reduce the impact on our environment, optimize the usage of recources and also save a lot of time and money.&lt;/p&gt;
+
+&lt;p&gt;We only have this one planet for now and therefore have to respect our home and it’s resources. It is easy and mostly comes with a lot of benefits. Now it is time for us to act accordingly. Together as humans we can solve human problems. After all we are one species.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;span class=&quot;notes&quot;&gt;Footnotes&lt;/span&gt;&lt;/p&gt;
+
+&lt;div class=&quot;footnotes&quot; role=&quot;doc-endnotes&quot;&gt;
+  &lt;ol&gt;
+    &lt;li id=&quot;fn:1&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;Learn more about CPU usage of Javascript animations &lt;a href=&quot;https://javascript.info/js-animation&quot; target=&quot;_blank&quot;&gt;on Javascript Info&lt;/a&gt;. &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:2&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;Code Reference of Template Parts &lt;a href=&quot;https://developer.wordpress.org/reference/functions/get_template_part/&quot; target=&quot;_blank&quot;&gt;on Wordpress Dev Docs&lt;/a&gt;. &lt;a href=&quot;#fnref:2&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:3&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;Mixin and Include documentation &lt;a href=&quot;https://sass-lang.com/documentation/at-rules/mixin&quot; target=&quot;_blank&quot;&gt;for SCSS/SASS&lt;/a&gt;. &lt;a href=&quot;#fnref:3&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/div&gt;</content><author><name>Marvin Borisch</name></author><category term="posts/susty" /><summary type="html">Tech-knowledge needed: basic</summary></entry><entry><title type="html">Accessibility on Social Media</title><link href="https://coppnic.cc/posts/a11y/2021/04/07/a11y-on-social-media.html" rel="alternate" type="text/html" title="Accessibility on Social Media" /><published>2021-04-07T00:49:52+02:00</published><updated>2021-04-07T00:49:52+02:00</updated><id>https://coppnic.cc/posts/a11y/2021/04/07/a11y-on-social-media</id><content type="html" xml:base="https://coppnic.cc/posts/a11y/2021/04/07/a11y-on-social-media.html">&lt;p&gt;&lt;strong&gt;Tech-knowledge needed:&lt;/strong&gt; basically none&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Hey friends, every &lt;strong&gt;five seconds&lt;/strong&gt; a human goes blind on planet earth. In fact, while you have read this sentence, another human has gone blind already. I have noticed that a lot of developers and website owners are not aware of how many people try to visit their websites and apps without the ability to even see the content. While this problem has been pushed more into the spotlight since laws have been passed around the world in the recent years, many people forget to apply that knowledge onto their social media accounts. As some of you know, this topic is a pretty important one to me for multiple reasons.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;The main reason might be, that a good friend of mine was raised by a blind single mother. She has raised four children, all by herself. Now imagine how pissed you would be after a long day of taking care of your kids all by yourself and just wanting to check out what your friends are doing on social media but can not participate. That’s why I am writing this article. I hope everyone of you will gain some sensitivity to disabilities and how they affect the online-life of around 37.000.000&lt;sup id=&quot;fnref:1&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt; humans world wide.&lt;/em&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;explanation&quot;&gt;Explanation&lt;/h3&gt;
+&lt;p&gt;In this article I will focus on Twitter, but all big players on the social media market have similar functions. Feel free to ask me on a Twitter DM or give me a call if you need help finding the functions on other plattforms. The information I am providing here, even though they are based on Twitter, will give you a basic understanding on how to improve the online quality for your friends and followers with disabillities in general.&lt;/p&gt;
+
+&lt;h3 id=&quot;viewing-disabillity&quot;&gt;Viewing Disabillity&lt;/h3&gt;
+&lt;p&gt;Humans with viewing disabilities such as blindness, reduced view, contrast problems, color blindness and everything else I am not covering here, have a hard time getting informations out of your images and photos. You can cover most of their problems with two easy tricks.&lt;/p&gt;
+
+&lt;h4 id=&quot;alt-tag--description&quot;&gt;ALT-tag / Description&lt;/h4&gt;
+
+&lt;p&gt;The “ALT”-tag, or how twitter calls it “Description”, of a photo is a hidden text that can be read by machines. While a lot of shady and disgusting professional content creators abuse the function to push theirself further up on Google, it actually has a useful function. Blind people use so called &lt;strong&gt;screen readers&lt;/strong&gt;. That can be a installable service that reads the text for you or even a machine that translates the displayed text into braile&lt;sup id=&quot;fnref:2&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:2&quot; class=&quot;footnote&quot;&gt;2&lt;/a&gt;&lt;/sup&gt;. Without such ALT-tags, blind people won’t be able to consume your photos. So here is how to describe the photos to blind people. &lt;span class=&quot;notes&quot;&gt;The following example is for tweets, but you can add a ALT-description to “Fleets”, too.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/pictures/a11y-on-social-media/01-upload.jpg&quot; alt=&quot;Twitter Upload-mask with a &amp;quot;Add Description&amp;quot; link below the photo.&quot; title=&quot;Upload Mask&quot; /&gt;&lt;br /&gt;
+&lt;em class=&quot;imglink&quot;&gt;&lt;a href=&quot;/pictures/a11y-on-social-media/01-upload.jpg&quot; title=&quot;Upload Mask&quot; target=&quot;_blank&quot;&gt;open image&lt;/a&gt;&lt;/em&gt;&lt;br /&gt;
+When you upload a photo to twitter, you can spot the little “Add Description” function below it. If you click that link, you will be prompted with a information from Twitter.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;You can add a description, sometimes called alt-text, to your photos so they’re accessible to even more people, including those who are blind or visually impaired. Good descriptions are concise, but present what’s in your photos accurately enough to understand their context.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;After closing that prompt from twitter, you can start describing the photo. Keep it compact but descriptive. On twitter you have 1.000 characters to describe your photo. If you feel you have described the picture good enough, hit the save button. If you have done everything correctly, you will see a “ALT” label on the left bottom corner and the excerpt of your description below of your photo preview. Finish your tweet and tweet it out to the world.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/pictures/a11y-on-social-media/04-final-check.jpg&quot; alt=&quot;The ALT-label is now showing on the left bottom corner of the photo preview.&quot; title=&quot;Upload Mask with Description&quot; /&gt;&lt;br /&gt;
+&lt;em class=&quot;imglink&quot;&gt;&lt;a href=&quot;/pictures/a11y-on-social-media/04-final-check.jpg&quot; title=&quot;Upload Mask with Description&quot; target=&quot;_blank&quot;&gt;open image&lt;/a&gt;&lt;/em&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;For all the (upcoming) nerds of you, I have &lt;a href=&quot;/pictures/a11y-on-social-media/06-code.jpg&quot; title=&quot;Code preview&quot; target=&quot;_blank&quot;&gt;a screenshot&lt;/a&gt; of how the ALT tag will be inserted into twitters website. This is basically what screen readers will see. To check it yourself, right-click your photo and then hit “inspect” (or similar, based on your browser). This will open a window with a lot of eeky weeky code stuff and highlight the important shit.&lt;/p&gt;
+
+&lt;p&gt;Now you are ready to go. With that information, you can now describe your photos to everyone and, kind of, do some magic by making the blind “see” your photos. They will thank you, not by words, but by their hearts.&lt;/p&gt;
+
+&lt;p&gt;&lt;span class=&quot;notes&quot;&gt;&lt;strong&gt;Note:&lt;/strong&gt; Of course no one should feel obligated to add ALT-descriptions, it is a nice-to-have. But if you are a public figure, represent your enterprise, company, or some official position, you should consider adding ALT-descriptions for the sake of inclusion.&lt;/span&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;contrasts&quot;&gt;Contrasts&lt;/h4&gt;
+&lt;p&gt;The biggest mistake most designer do, even good ones, is forgetting to check the contrast ratio. While working with a lot of them in my career, I’ve learned that contrasts are way to underrated, even though they impact a way bigger amount of humans. And I am not only talking about visually impaired people. Bad contrasts can affect even you. Take my website for example. I have designed my website purely for me and no one else, that means I have used my main monitor&lt;sup id=&quot;fnref:3&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:3&quot; class=&quot;footnote&quot;&gt;3&lt;/a&gt;&lt;/sup&gt; as the basic display instead of testing my design on multiple monitors. The contrast itself is perfectly fine on my main monitor, but if I use my secondary monitor, I have to focus much more to read my &lt;span class=&quot;notes&quot;&gt;article notes&lt;/span&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/pictures/a11y-on-social-media/07-contrast.jpg&quot; alt=&quot;An example of different color contrasts based on my website design&quot; title=&quot;Contrast examples&quot; /&gt;&lt;br /&gt;
+&lt;em class=&quot;imglink&quot;&gt;&lt;a href=&quot;/pictures/a11y-on-social-media/07-contrast.jpg&quot; title=&quot;Contrast examples&quot; target=&quot;_blank&quot;&gt;open image&lt;/a&gt;&lt;/em&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;Problems might occur due to a mix of size, weight (thickness) and the colors of the foreground and the background. That’s why some very clever people have agreed on principles for inclusive design&lt;sup id=&quot;fnref:4&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:4&quot; class=&quot;footnote&quot;&gt;4&lt;/a&gt;&lt;/sup&gt;, but I do not expect you to read through all this. You can simply visit &lt;a href=&quot;https://contrastchecker.com/&quot; target=&quot;_blank&quot;&gt;contrastchecker.com&lt;/a&gt; and test if your colors meet the standards. But do not rely to much on it. Sometimes contrasts can appear better and sometimes worse than calculated. For example, yellow/orange and white &lt;strong&gt;can&lt;/strong&gt; look like it is functioning for you, but based on the light source, it can turn bad really fast. On the other hand a medium-grey on a true black background might not fit all of the calculations for the AA/AAA standard, but is readable for a wide amount of humans in most light situations.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;“So, Marv, how can I optimize my social media contrast game?”&lt;/em&gt;&lt;/strong&gt;, you migh ask. It’s pretty easy. Choose good color and hue contrast, and if you want to put some text on a nice photo of yours, make sure to either use a background behind the text or put it on a part of your image, that has a quite opposite color or hue. Always ask yourself “could my grandparents read it?”. Are you not sure if the answer is yes? Then the answer most likely will be “no”. One easy quick-tip that helps me a lot is, taking my phone in my hand, and move it as far away from my eyes as my arms reach. If you still can read everything without guesstimating, then you are ready to go.&lt;/p&gt;
+
+&lt;h3 id=&quot;hearing-disabillity--audio-language-barriers&quot;&gt;Hearing Disabillity &amp;amp; Audio Language Barriers&lt;/h3&gt;
+&lt;p&gt;Based on statistics provided by the WHO&lt;sup id=&quot;fnref:5&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:5&quot; class=&quot;footnote&quot;&gt;5&lt;/a&gt;&lt;/sup&gt;, over 5% of the world’s population require rehabilitation because of their disabling hearing loss. That’s over 430.000.000 humans. Yet a lot of social media content does not provide support for disabled people. Sadly, there aren’t many solutions on how to aid deaf, partially restricted and foreign humans. But available solutions are very powerful and surprisingly including.&lt;/p&gt;
+
+&lt;h4 id=&quot;manual-subtitles&quot;&gt;Manual Subtitles&lt;/h4&gt;
+&lt;p&gt;The easiest way to include humans with hearing disabilities is to add subtitles. Most plattforms, including Twitter, do not deliver platform-ready solutions for that. You are mostly restricted to manually add subtitles with third-party programms. As there are thousands of awesome and free to use programms, I will not recommend any specific ones, but a easy and quick online search for terms such as “(permanently) add subtitles on video” will throw out quite a handfull of awesome tools. Make sure to consider my tipps for contrasts as mentioned above.&lt;/p&gt;
+
+&lt;h4 id=&quot;youtube-subtitles&quot;&gt;Youtube Subtitles&lt;/h4&gt;
+&lt;p&gt;While most social media plattforms do not support subtitles in their standard functions, Youtube basically &lt;del&gt;is&lt;/del&gt; was the queen of subtitles. Due to Youtube’s nature of providing video content to billions of humans world wide, they’ve almost perfectioned the subtitle game. They offer functions such as manually adding subtitles to your videos which can be shown and hidden, based on the user’s preference. But the most important functions might be auto-generated synchronization, auto-generated translations &lt;del&gt;and community-submitted subtitles&lt;/del&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Auto-generated Synchronization:&lt;/strong&gt; If you provide a full transcript of the video, Youtube’s system will automatically place the timing-markes for you. No need to do all the handy work on your own.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Auto-generated Translation:&lt;/strong&gt; When you add subtitles by yourself, Youtube can automatically translate your video in any supported language. Tho, this function does not work for auto-generated syncronizations, it is still a very handy function.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Legacy: Community-submitted Subtitles:&lt;/strong&gt; In the beginning of the world wide Covid-19 pandemic, Youtube decided&lt;sup id=&quot;fnref:6&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:6&quot; class=&quot;footnote&quot;&gt;6&lt;/a&gt;&lt;/sup&gt; to remove it’s function of community captions. As they have stated, this decision was made due to low usage and spam/abuse problems. Sadly, Youtube has not announced any replacement of this function. The a11y-community of Youtube has been suggesting replacements such as volunteer-created captions, which would have been a huge support for disabled content creators. It is little surprise that this sparked a backlash from the community.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;I told them for a full freakin’ hour why we need community contribution. Not just for deaf people so more channels will have captions, but for disabled creators who can’t manually do them or have the income to pay for them: which is most of us. They do not care about us.&lt;br /&gt;&lt;br /&gt;
+¬ &lt;cite&gt; Rikki Poynter (&lt;a href=&quot;https://twitter.com/rikkipoynter/status/1289004897371856898&quot; target=&quot;_blank&quot;&gt;@rikkipoynter&lt;/a&gt;), July 31, 2020&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Even though this sad downside, Youtube still offers good subtitle options for content creators, which will still help a lot of people to provide more accessible content for disabled or impaired humans. Due to it’s almost fully automatic nature, there is no reason &lt;strong&gt;not&lt;/strong&gt; to provide subtitles for your friends and followers.&lt;/p&gt;
+
+&lt;h3 id=&quot;its-about-you-help&quot;&gt;It’s about you! Help.&lt;/h3&gt;
+&lt;p&gt;You will never know if you will ever be impacted by a disability in your future or if your friends and family will strugle from poor a11y-support, so it is about you to make this world a better place by supporting your fellow humans.&lt;/p&gt;
+
+&lt;p&gt;If you think I have been mistaken, forgotten a vital part or if you got some valuable insight to share, feel free to contact me via Twitter. I will be happily open to extend this post.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;span class=&quot;notes&quot;&gt;Footnotes&lt;/span&gt;&lt;/p&gt;
+
+&lt;div class=&quot;footnotes&quot; role=&quot;doc-endnotes&quot;&gt;
+  &lt;ol&gt;
+    &lt;li id=&quot;fn:1&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;37.000.000 humans world wide, that would be roughhhhly half the amount of the inhabitants in germany! Around 145.000 people in germany are fully blind. That’s more than half of the inhabitants of my district, Berlin Treptow-Köpenick. &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:2&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;Check out this video about a refreshable braille display for the iPad. &lt;a href=&quot;https://www.youtube.com/watch?v=tVuLGrab9JA&quot; target=&quot;_blank&quot;&gt;YouTube Link&lt;/a&gt; &lt;a href=&quot;#fnref:2&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:3&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;As my main monitor I use a EIZO EV2336W, a monitor made for office works and designer with a modern and bright but economical background lighting. My secondary monitor is a old HP Compaq LA1951g in vertical mode with bad background lighting. &lt;a href=&quot;#fnref:3&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:4&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;WCAG Contrast Minimum, by W3C. &lt;a href=&quot;https://www.w3.org/WAI/WCAG21/Understanding/contrast-minimum.html&quot; target=&quot;_blank&quot;&gt;Read here&lt;/a&gt; &lt;a href=&quot;#fnref:4&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:5&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;World Health Organization: Deafness and hearing loss. &lt;a href=&quot;https://www.who.int/news-room/fact-sheets/detail/deafness-and-hearing-loss&quot; target=&quot;_blank&quot;&gt;Read the full article&lt;/a&gt; &lt;a href=&quot;#fnref:5&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:6&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;Youtube about removing community captions. &lt;a href=&quot;https://support.google.com/youtube/answer/6052538?hl&quot; target=&quot;_blank&quot;&gt;Read on Youtube Support&lt;/a&gt; &lt;a href=&quot;#fnref:6&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/div&gt;</content><author><name>Marvin Borisch</name></author><category term="posts/a11y" /><summary type="html">Tech-knowledge needed: basically none</summary></entry></feed>

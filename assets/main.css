@@ -1,0 +1,286 @@
+/*******************
+/*
+/* Name: Marvli Project SCSS
+/* Description: This is the basic include for Classical Website Projects
+/* Version: 0.1
+/* Author: Marvin Borisch
+/* URI: https://github.com/marvinpoo/_marvli.scss
+/* License: MIT
+/*
+/*******************
+
+/* mediaqueries */
+/* inconsolata-300 - latin-ext_latin */
+@font-face { font-family: 'Inconsolata'; font-style: normal; font-weight: 300; src: url("/fonts/inconsolata-v20-latin-ext_latin-300.eot"); /* IE9 Compat Modes */ src: local(""), url("/fonts/inconsolata-v20-latin-ext_latin-300.eot?#iefix") format("embedded-opentype"), url("/fonts/inconsolata-v20-latin-ext_latin-300.woff2") format("woff2"), url("/fonts/inconsolata-v20-latin-ext_latin-300.woff") format("woff"), url("/fonts/inconsolata-v20-latin-ext_latin-300.ttf") format("truetype"), url("/fonts/inconsolata-v20-latin-ext_latin-300.svg#Inconsolata") format("svg"); /* Legacy iOS */ }
+
+/* inconsolata-500 - latin-ext_latin */
+@font-face { font-family: 'Inconsolata'; font-style: normal; font-weight: 500; src: url("/fonts/inconsolata-v20-latin-ext_latin-500.eot"); /* IE9 Compat Modes */ src: local(""), url("/fonts/inconsolata-v20-latin-ext_latin-500.eot?#iefix") format("embedded-opentype"), url("/fonts/inconsolata-v20-latin-ext_latin-500.woff2") format("woff2"), url("/fonts/inconsolata-v20-latin-ext_latin-500.woff") format("woff"), url("/fonts/inconsolata-v20-latin-ext_latin-500.ttf") format("truetype"), url("/fonts/inconsolata-v20-latin-ext_latin-500.svg#Inconsolata") format("svg"); /* Legacy iOS */ }
+
+/* inconsolata-700 - latin-ext_latin */
+@font-face { font-family: 'Inconsolata'; font-style: normal; font-weight: 700; src: url("/fonts/inconsolata-v20-latin-ext_latin-700.eot"); /* IE9 Compat Modes */ src: local(""), url("/fonts/inconsolata-v20-latin-ext_latin-700.eot?#iefix") format("embedded-opentype"), url("/fonts/inconsolata-v20-latin-ext_latin-700.woff2") format("woff2"), url("/fonts/inconsolata-v20-latin-ext_latin-700.woff") format("woff"), url("/fonts/inconsolata-v20-latin-ext_latin-700.ttf") format("truetype"), url("/fonts/inconsolata-v20-latin-ext_latin-700.svg#Inconsolata") format("svg"); /* Legacy iOS */ }
+
+/* inconsolata-900 - latin-ext_latin */
+@font-face { font-family: 'Inconsolata'; font-style: normal; font-weight: 900; src: url("/fonts/inconsolata-v20-latin-ext_latin-900.eot"); /* IE9 Compat Modes */ src: local(""), url("/fonts/inconsolata-v20-latin-ext_latin-900.eot?#iefix") format("embedded-opentype"), url("/fonts/inconsolata-v20-latin-ext_latin-900.woff2") format("woff2"), url("/fonts/inconsolata-v20-latin-ext_latin-900.woff") format("woff"), url("/fonts/inconsolata-v20-latin-ext_latin-900.ttf") format("truetype"), url("/fonts/inconsolata-v20-latin-ext_latin-900.svg#Inconsolata") format("svg"); /* Legacy iOS */ }
+
+/* inconsolata-999 - latin-ext_latin */
+@font-face { font-family: 'Inconsolata'; font-style: normal; font-weight: 999; src: url("/fonts/Inconsolata-UltraExpandedBlack.eot"); /* IE9 Compat Modes */ src: local(""), url("/fonts/Inconsolata-UltraExpandedBlack.eot?#iefix") format("embedded-opentype"), url("/fonts/Inconsolata-UltraExpandedBlack.woff2") format("woff2"), url("/fonts/Inconsolata-UltraExpandedBlack.woff") format("woff"), url("/fonts/Inconsolata-UltraExpandedBlack.ttf") format("truetype"), url("/fonts/Inconsolata-UltraExpandedBlack.svg#Inconsolata") format("svg"); /* Legacy iOS */ }
+
+/** Reset some basic elements */
+body, h1, h2, h3, h4, h5, h6, p, blockquote, pre, hr, dl, dd, ol, ul, figure { margin: 0; padding: 0; }
+
+/** Basic styling */
+body { -webkit-text-size-adjust: 100%; -webkit-font-feature-settings: "kern" 1; -moz-font-feature-settings: "kern" 1; -o-font-feature-settings: "kern" 1; font-feature-settings: "kern" 1; font-kerning: normal; min-height: 100vh; color: #FFF2DE; background-color: #333134; font-family: "Inconsolata", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", monospace; }
+
+/** Set `margin-bottom` to maintain vertical rhythm */
+h1, h2, h3, h4, h5, h6, p, blockquote, pre, ul, ol, dl, figure, .highlight { margin-bottom: 15px; }
+
+/** `main` element */
+main { display: block; /* Default value of `display` of `main` element is 'inline' in IE 11. */ }
+
+/** Images */
+img { max-width: 100%; vertical-align: middle; }
+
+/** Figures */
+figure > img { display: block; }
+
+figcaption { font-size: 14px; }
+
+/** Lists */
+ul, ol { list-style: none; }
+
+.wrapper ul { margin-left: 30px; list-style-type: disc; }
+
+.wrapper ol { margin-left: 30px; list-style-type: decimal; }
+
+.wrapper .post-list { list-style-type: none; margin-left: 0; }
+
+li > ul, li > ol { margin-bottom: 0; }
+
+/** Headings */
+h1, h2, h3, h4, h5, h6 { font-weight: 400; }
+
+article.post h1 { font-weight: 900; }
+
+article.post h2 { font-weight: 900; font-size: 1.8rem; }
+
+article.post h3 { font-weight: 900; font-size: 1.4rem; }
+
+article.post h4 { font-weight: 700; font-size: 1.1rem; }
+
+article.post i, article.post em { color: white; }
+
+article.post b, article.post strong { font-weight: 900; }
+
+/** Links */
+a { color: #C6F140; text-decoration: underline; }
+
+a:hover { color: #e2f89f; text-decoration: underline; }
+
+.social-media-list a:hover { text-decoration: none; }
+
+.social-media-list a:hover .username { text-decoration: underline; }
+
+/** Blockquotes */
+blockquote { color: #ff5449; border-left: 4px solid #FF5449; padding-left: 15px; letter-spacing: -1px; font-style: italic; }
+
+blockquote > :last-child { margin-bottom: 0; }
+
+/** Code formatting */
+pre, code { font-size: 15px; border: 1px solid #e8e8e8; border-radius: 3px; background-color: #eef; }
+
+code { padding: 1px 5px; }
+
+pre { padding: 8px 12px; overflow-x: auto; }
+
+pre > code { border: 0; padding-right: 0; padding-left: 0; }
+
+/** Wrapper */
+.wrapper { line-height: 1.5; max-width: -webkit-calc(1024px - (30px * 2)); max-width: calc(1024px - (30px * 2)); }
+
+@media screen and (max-width: 800px) { .wrapper { max-width: -webkit-calc(1024px - (30px)); max-width: calc(1024px - (30px)); } }
+
+/** Clearfix */
+.wrapper:after { content: ""; display: table; clear: both; }
+
+/** Icons */
+.svg-icon { width: 16px; height: 16px; display: inline-block; fill: #828282; padding-right: 5px; vertical-align: text-top; }
+
+.social-media-list li + li { padding-top: 5px; }
+
+/** Tables */
+table { margin-bottom: 30px; width: 100%; text-align: left; color: #FFF2DE; border-collapse: collapse; border: 1px solid #e8e8e8; }
+
+table tr:nth-child(even) { background-color: #242424; }
+
+table th, table td { padding: 10px 15px; }
+
+table thead td, table th { background-color: #1c1c1c; border: 1px solid #dedede; border-bottom-color: #c9c9c9; }
+
+table td { border: 1px solid #e8e8e8; }
+
+del { text-decoration-color: #FF5449; text-decoration-thickness: 3px; text-emphasis-style: wavy; }
+
+.kehrbesen { unicode-bidi: bidi-override; direction: rtl; }
+
+#wrapper { width: calc(100% - 60px); max-width: 1024px; display: grid; grid-template-columns: 1fr; grid-template-rows: 200px 1fr; gap: 30px; padding: 30px; }
+
+@media screen and (min-width: 768px) { #wrapper { grid-template-columns: 2fr 5fr; } }
+
+.header { grid-column-start: 1; grid-column-end: 2; max-height: 250px; }
+
+.header h1 { color: #FF5449; font-weight: 999; font-size: 48px; }
+
+.header h2 { font-weight: 300; font-size: 23px; }
+
+.header h2 b { font-weight: 900; color: #FF5449; }
+
+.header a { text-decoration: none; }
+
+#sidebar { grid-column-start: 1; grid-column-end: 2; grid-row-start: 3; grid-row-end: 4; }
+
+@media screen and (min-width: 768px) { #sidebar { grid-row-start: 2; grid-row-end: 3; } }
+
+#sidebar b { color: #FF5449; font-size: 21px; font-weight: 700; line-height: 2; }
+
+#sidebar li { line-height: 1.7; font-size: 14px; }
+
+#sidebar .post-link { font-weight: 700; }
+
+.page-content { grid-column-start: 1; grid-column-end: 2; grid-row-start: 2; grid-row-end: 3; }
+
+@media screen and (min-width: 768px) { .page-content { grid-column-start: 2; grid-column-end: 3; grid-row-start: 1; grid-row-end: 3; } }
+
+.singlepost .post-meta { color: #FF5449; }
+
+.singlepost .post-meta .p-author { font-style: italic; font-weight: 700; }
+
+article.post h2 { margin-bottom: 0; }
+
+hr { border: 0.5px solid #ffccc9; }
+
+.footnotes, .notes { font-size: 14px; font-weight: 300; }
+
+/** Syntax highlighting styles */
+.highlight { background: #fff; }
+
+.highlighter-rouge .highlight { background: #eef; }
+
+.highlight .c { color: #998; font-style: italic; }
+
+.highlight .err { color: #a61717; background-color: #e3d2d2; }
+
+.highlight .k { font-weight: bold; }
+
+.highlight .o { font-weight: bold; }
+
+.highlight .cm { color: #998; font-style: italic; }
+
+.highlight .cp { color: #999; font-weight: bold; }
+
+.highlight .c1 { color: #998; font-style: italic; }
+
+.highlight .cs { color: #999; font-weight: bold; font-style: italic; }
+
+.highlight .gd { color: #000; background-color: #fdd; }
+
+.highlight .gd .x { color: #000; background-color: #faa; }
+
+.highlight .ge { font-style: italic; }
+
+.highlight .gr { color: #a00; }
+
+.highlight .gh { color: #999; }
+
+.highlight .gi { color: #000; background-color: #dfd; }
+
+.highlight .gi .x { color: #000; background-color: #afa; }
+
+.highlight .go { color: #888; }
+
+.highlight .gp { color: #555; }
+
+.highlight .gs { font-weight: bold; }
+
+.highlight .gu { color: #aaa; }
+
+.highlight .gt { color: #a00; }
+
+.highlight .kc { font-weight: bold; }
+
+.highlight .kd { font-weight: bold; }
+
+.highlight .kp { font-weight: bold; }
+
+.highlight .kr { font-weight: bold; }
+
+.highlight .kt { color: #458; font-weight: bold; }
+
+.highlight .m { color: #099; }
+
+.highlight .s { color: #d14; }
+
+.highlight .na { color: #008080; }
+
+.highlight .nb { color: #0086B3; }
+
+.highlight .nc { color: #458; font-weight: bold; }
+
+.highlight .no { color: #008080; }
+
+.highlight .ni { color: #800080; }
+
+.highlight .ne { color: #900; font-weight: bold; }
+
+.highlight .nf { color: #900; font-weight: bold; }
+
+.highlight .nn { color: #555; }
+
+.highlight .nt { color: #000080; }
+
+.highlight .nv { color: #008080; }
+
+.highlight .ow { font-weight: bold; }
+
+.highlight .w { color: #bbb; }
+
+.highlight .mf { color: #099; }
+
+.highlight .mh { color: #099; }
+
+.highlight .mi { color: #099; }
+
+.highlight .mo { color: #099; }
+
+.highlight .sb { color: #d14; }
+
+.highlight .sc { color: #d14; }
+
+.highlight .sd { color: #d14; }
+
+.highlight .s2 { color: #d14; }
+
+.highlight .se { color: #d14; }
+
+.highlight .sh { color: #d14; }
+
+.highlight .si { color: #d14; }
+
+.highlight .sx { color: #d14; }
+
+.highlight .sr { color: #009926; }
+
+.highlight .s1 { color: #d14; }
+
+.highlight .ss { color: #990073; }
+
+.highlight .bp { color: #999; }
+
+.highlight .vc { color: #008080; }
+
+.highlight .vg { color: #008080; }
+
+.highlight .vi { color: #008080; }
+
+.highlight .il { color: #099; }
+
+/*# sourceMappingURL=main.css.map */
